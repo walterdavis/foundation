@@ -261,8 +261,8 @@ header img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7b7b7', endColorstr='#a6a6a6',GradientType=0 ); /* IE6-9 */
   background-image: linear-gradient(top, #b7b7b7, #a6a6a6);
   border: solid 1px #949494;
-  padding: 12px 17px 15px 17px;
-  width: 96px; }
+  padding-top: 12px;
+  padding-bottom: 15px; }
 #updates div.two.columns h6 {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
@@ -305,9 +305,9 @@ header img {
 #updates aside {
   background: white;
   margin-left: 0;
-  padding: 12px 17px 13px 2%;
-  border: solid 1px #e0e0e0;
-  width: 210px; }
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: solid 1px #e0e0e0; }
 #updates aside > a {
   background: url('images/icon-docs.png?1309564181') 0 4px no-repeat;
   padding-left: 26px;

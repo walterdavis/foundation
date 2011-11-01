@@ -26,27 +26,23 @@
 	<!-- Main Container -->
 	<div id="main" class="container">
 	  <!-- Update Bar -->
-	  <div class="row">
-	    <section id="updates" class="twelve columns">
-        <div class="row">
-          <div class="two columns">
-            <h6>Latest Update</h6>
-            <time>Oct 26, 2011</time>
-            <a href="github-mac://openRepo/https://github.com/zurb/foundation" class="nice small white button">Clone Now</a>
-          </div>
-          <article class="seven columns">
-            <dl>
-              <dt>Version 2.0.3</dt>
-              <dd>Various bug fixes, as well as correcting an issue with the Rails gem.</dd>
-            </dl>
-            <a href="https://github.com/zurb/foundation">Commit 748242f9c43d27e3861bce5afdf217a026449681 &raquo;</a>
-          </article>
-          <aside class="three columns">
-            <a href="docs/">View the Documentation &raquo;</a>
-            <a href="files/foundation-download.zip">Download Foundation 2.0.3 &raquo;</a>
-          </aside>
-        </div>
-	    </section>
+	  <div class="row" id="updates">
+	      <div class="two columns">
+	        <h6>Latest Update</h6>
+	        <time>Oct 26, 2011</time>
+	        <a href="github-mac://openRepo/https://github.com/zurb/foundation" class="nice small white button">Clone Now</a>
+	      </div>
+	      <article class="seven columns">
+	        <dl>
+	          <dt>Version 2.0.3</dt>
+	          <dd>Various bug fixes, as well as correcting an issue with the Rails gem.</dd>
+	        </dl>
+	        <a href="https://github.com/zurb/foundation">Commit 748242f9c43d27e3861bce5afdf217a026449681 &raquo;</a>
+	      </article>
+	      <aside class="three columns">
+	        <a href="docs/">View the Documentation &raquo;</a>
+	        <a href="files/foundation-download.zip">Download Foundation 2.0.3 &raquo;</a>
+	      </aside>
 	  </div>
 	  <!-- /Update Bar -->
 	  
