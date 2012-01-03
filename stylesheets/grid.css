@@ -55,6 +55,30 @@
 	.row .offset-by-ten:first-child 	{ margin-left: 87%;  }
 	.row .offset-by-eleven:first-child 	{ margin-left: 95.7%;  }
 	
+	
+	 /* Fix webkit percent bug */
+	 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-width: 767px){
+	 	.row>[class$="columns"]:last-of-type, .row>[class$="column"]:last-of-type {
+		 	display: table-cell;
+		 	float: none;width: auto;
+		 	margin: 0;
+		 }
+	
+	 	.row>[class$="columns"]:nth-last-of-type(2), .row>[class$="column"]:nth-last-of-type(2) {
+		 	margin-right: gi4.4%;
+	 	}
+	 	
+	 	.row>[class$="columns"]:last-of-type::after, .row>[class$="column"]:last-of-type::after {
+			content: " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
+			visibility: hidden;
+			clear: both;
+			height: 0 !important;
+			display: block;
+			line-height: 0;
+		}
+	}
+	
+	
 	/* Source Ordering */
 	.push-two 		{ left: 17.4% }
 	.push-three 	{ left: 26.1%; }
